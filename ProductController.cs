@@ -13,6 +13,7 @@ namespace LayerProject.Controllers
     public class ProductController : ControllerBase
     {
         //i change
+        //2 change
         private readonly IService<ProductDto> _productService;
         public static string _directory = Environment.CurrentDirectory + "/images/";
         public ProductController(IService<ProductDto> productService)
